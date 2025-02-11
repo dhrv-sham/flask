@@ -1,0 +1,17 @@
+<!-- To work with flask first you need to create env  -->
+--> got to vs code and create virtual enviromnet of python and then execute 
+->python : create environment 
+
+<!-- converntions  -->
+-> temlplate folder must have the  name as name  
+
+<!-- to start the flask app -->
+-> export FLASK_APP=market.py
+-> flask run
+
+
+<!-- to download  all requirements.txt -->
+-->pip3 install -r requirements.txt
+
+<!-- on the debigger mode  -->
+->export FLASK_DEBUG=1
