@@ -1,48 +1,48 @@
-<!-- To work with flask first you need to create env  -->
---> got to vs code and create virtual enviromnet of python and then execute 
-->python : create environment 
+##### Setup
+* -> got to vs code and create virtual enviromnet of python and then execute 
+* -> python : create environment 
 
-<!-- converntions  -->
--> temlplate folder must have the  name as name  
+##### Conventions
+* -> temlplate folder must have the  name as name  
 
+##### RestFul Api 
+* Request -> Api  -> Response .
+* Communicate through HTTP,WEB and servers
+* Methods-> GET POST PUT DELETE
+* GET - > recieve resources
+* POST - > add resources
+* PUT - > update resources
+* Delete - > delete resources
 
 ##### Packages
-'''JavaScrypt
+```py
 pip3 install flask-restful
-'''
+```
 
-<!-- to start the flask app -->
--> export FLASK_APP=market.py
--> flask run
+##### Start Flask App
+```js
+export FLASK_APP=market.py
+flask run
+```
 
+##### Download Requirements File
+```js
+pip3 install -r requirements.txt
+```
 
-<!-- to download  all requirements.txt -->
--->pip3 install -r requirements.txt
+##### Debugger Mode
+```js
+export FLASK_DEBUG=1
+```
 
-<!-- on the debugger mode  -->
-->export FLASK_DEBUG=1
-
-
-
-
-##### Git_Push
-'''javascript
+##### Git Commands
+```js
 git add . 
 git commit -m "Message"
 git push origin main
-'''
+```
 
 
-
-
-RestFul Api [^note].
-[^1]: Request -> Api  -> Response .
-[^2]: Communicate through HTTP,WEB and servers
-[^3]: Methods-> GET POST PUT DELETE
-[^4]: GET - > recieve resources
-[^5]: POST - > add resources
-[^6]: PUT - > update resources
-[^7]: Delete - > delete resources
 
 
 
