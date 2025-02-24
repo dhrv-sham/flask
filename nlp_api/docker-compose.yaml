@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  nlp_web: 
+    build: ./web
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongodb  
+  mongodb:
+    image: 'mongo'
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:

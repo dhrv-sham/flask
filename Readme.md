@@ -16,6 +16,7 @@
 
 ##### Packages
 ```py
+# pip3 install $package-name
 pip3 install flask-restful
 ```
 
@@ -42,6 +43,13 @@ git commit -m "Message"
 git push origin main
 ```
 
+##### Python Docker containers
+```py
+# for docker container expose the host 0.0.0.0
+if __name__ == "__main__":
+    # for docker container expose the host 0.0.0.0
+    app.run(debug=True, host="0.0.0.0") 
+```
 
 
 
